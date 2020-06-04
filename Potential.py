@@ -48,7 +48,7 @@ def clickPaste():
 def copyCode():
     global chestcode
     #read stuff from chests.txt
-    chestcode = "LAZE-RBEA-KFRI-ENDS"
+    chestcode = code
     pyperclip.copy(chestcode)
     time.sleep(2)
     
